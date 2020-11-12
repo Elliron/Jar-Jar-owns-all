@@ -7,4 +7,5 @@ function myFunction() {
     }  else {
         txt= "I find your lack of faith disturbing"
     }
+    document.getElementById("thing").innerHTML = txt;
 }
